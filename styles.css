@@ -1,5 +1,4 @@
-/* Global Styles */
-
+/* Reset CSS */
 * {
     margin: 0;
     padding: 0;
@@ -8,14 +7,14 @@
 
 /* Global Styles */
 body {
-    font-family: 'Arial, sans-serif'; 
+    font-family: 'Arial, sans-serif';
     color: #333;
-    background-color: #f8f9fa; 
+    background-color: #f8f9fa;
 }
 
 /* Header Styles */
 header {
-    background-color: #ffffff; 
+    background-color: #ffffff;
     padding: 10px 20px;
     text-align: center;
 }
@@ -26,7 +25,7 @@ header {
 
 /* Hero Section Styles */
 .hero {
-    background: url('images/hero-background.jpg') no-repeat center center/cover; 
+    background: url('images/hero-background.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -62,7 +61,7 @@ header {
 }
 
 .cta-button {
-    background-color: #ff6600; 
+    background-color: #ff6600;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -95,18 +94,18 @@ header {
 .sliding-logos {
     overflow: hidden;
     position: relative;
-    background: #fff; 
+    background: #fff;
     padding: 20px 0;
 }
 
 .logo-container {
     display: flex;
-    width: calc(250px * 5); 
+    width: calc(250px * 5);
     animation: slide 15s linear infinite;
 }
 
 .logo-container img {
-    width: 250px; 
+    width: 250px;
     height: auto;
     margin-right: 20px;
 }
